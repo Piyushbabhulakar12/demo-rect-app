@@ -6,6 +6,8 @@ import Service from './Home/Service.js';
 import Ourwork from './Home/Ourwork.js';
 import Process from './Home/Process.js';
 import Team from './Home/Team.js';
+import Faq from './Home/Faq.js';
+import Footer from './Home/Footer.js';
 
 function Home() {
   return (
@@ -18,6 +20,8 @@ function Home() {
           <Ourwork/>
           <Process/>
           <Team/>
+          <Faq/>
+          <Footer/>
            
 
     </div>
