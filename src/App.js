@@ -13,7 +13,7 @@ function App() {
            
     
        <Routes>
-        <Route path="/" exact element={<Home/>} />
+        <Route path="/demo-rect-app" exact element={<Home/>} />
         <Route path="/contact" element={<Contact/>} />
       </Routes>
 
