@@ -5,6 +5,8 @@ import Home from './Home.js';
 import Contact from './Contact.js';
 import Menu from './Menu.js';
 import CinmaticVideo from './CinmaticVideo/CinmaticVideo.js';
+import Cinmaticv from './CinmaticVideo/Cinmaticv';
+import AboutUs from './AboutUs/Index';
 import Faq from './Home/Faq.js';
 import Footer from './Home/Footer.js';
 
@@ -16,9 +18,11 @@ function App() {
            
     
        <Routes>
-        <Route path="/finalcutproduction" exact element={<Home/>} />
+        <Route path="/" exact element={<Home/>} />
         <Route path="/contact" element={<Contact/>} />
         <Route path="/cinmatic-video" element={<CinmaticVideo/>} />
+        <Route path="Cinmaticv/:id" element={<Cinmaticv />} />
+        <Route path="/aboutus" element={<AboutUs />} />
       </Routes>
 
       <Footer/>
