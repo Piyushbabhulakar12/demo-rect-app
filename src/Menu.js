@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function Contact() {
+function Menu() {
   return (
     <div>
      
@@ -18,16 +18,19 @@ function Contact() {
           <Link class="nav-link navbar_text" to="/">Home</Link>
         </li>
         <li class="nav-item">
-         <Link class="nav-link navbar_text" to="/contact">About Us</Link>
+         <Link class="nav-link navbar_text" to="/aboutus">About Us</Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link navbar_text" href="#">Team</a>
+          <Link class="nav-link navbar_text" href="#">Team</Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link navbar_text" href="#">Work</a>
+          <Link class="nav-link navbar_text" href="#">Work</Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link navbar_text" href="#">Picture</a>
+          <Link class="nav-link navbar_text" href="#">Picture</Link>
+        </li>
+         <li class="nav-item">
+           <Link class="nav-link navbar_text" to="/contact">Contact</Link>
         </li>
       </ul>
     <button class="btn menu_icon" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"><i class="fa fa-bars" aria-hidden="true"></i></button>
@@ -59,7 +62,7 @@ function Contact() {
                    </div>
                    <div class="col-md-4">
                        
-                       <button class="btn btn-dark float-end rounded-pill btn_spas shadow-lg"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                      <Link to="/cinmatic-video"><button data-bs-dismiss="offcanvas" class="btn btn-dark float-end rounded-pill btn_spas shadow-lg"><i class="fa fa-angle-right" aria-hidden="true"></i></button></Link>
 
                    </div>
                </div>
@@ -149,4 +152,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default Menu;
