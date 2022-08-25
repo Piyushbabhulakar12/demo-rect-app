@@ -7,7 +7,7 @@ function Aboutme() {
         
 
         <div class="container section_margin_top">
-            <h2 class="heading_text_about">About Me</h2>
+            <h2 class="heading_text_about">About Mejjjj</h2>
         </div>
 
         <div class="container mt-5 bg_color_about">
