@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function Contact() {
+function Menu() {
   return (
     <div>
      
@@ -15,19 +15,19 @@ function Contact() {
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav m-auto">
         <li class="nav-item">
-          <Link class="nav-link navbar_text" to="/demo-rect-app">Home</Link>
+          <Link class="nav-link navbar_text" to="/">Home</Link>
         </li>
         <li class="nav-item">
-         <Link class="nav-link navbar_text" to="/contact">About Us</Link>
+         <Link class="nav-link navbar_text" to="/aboutus">About Us</Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link navbar_text" href="#">Team</a>
+          <Link class="nav-link navbar_text" href="#">Team</Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link navbar_text" href="#">Work</a>
+          <Link class="nav-link navbar_text" href="#">Work</Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link navbar_text" href="#">Picture</a>
+          <Link class="nav-link navbar_text" href="#">Picture</Link>
         </li>
          <li class="nav-item">
            <Link class="nav-link navbar_text" to="/contact">Contact</Link>
@@ -152,4 +152,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default Menu;
